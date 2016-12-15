@@ -1,0 +1,32 @@
+body {
+  background-color: white;
+  text-align: center;
+}
+
+
+h1 {
+  font-family: 'Crimson Text', serif;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  color: black;
+}
+
+p.checked::before {
+    content: '';
+    position: absolute;
+    border-color: #fff;
+    border-style: solid;
+    border-width: 0 2px 2px 0;
+    top: 10px;
+    left: 16px;
+    transform: rotate(45deg);
+    height: 15px;
+    width: 7px;
+}
+
+#title {
+  margin-bottom: 20px;
+  font-size: 25px;
+}
