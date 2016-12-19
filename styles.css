@@ -3,21 +3,49 @@ body {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   letter-spacing: 1px;
-  background-color: #F9F2F3;
+  font-weight: 300;
+/*  background-color: #F9F2F3;*/
 }
 
 
 h1 {
+font-size: 28px;
+font-weight: 700;
+margin: 0px;
+}
 
+h5 {
+/*  font-family: 'EB Garamond', serif;*/
+  font-size: 17px;
+  letter-spacing: 0px;
+  margin: 0px;
+  margin-bottom: 15px;
+  margin-top: 50px;
 }
 
 label {
-  font-size: 25px;
+/*  font-family: 'EB Garamond', serif;*/
+  font-size: 17px;
 
 }
 
-#container {
+hr {
+ width: 8%;
+ margin-top: 45px;
+ border-top: 3px solid black;
+}
 
+hr.bottom {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#container {
+  padding: 10px 565px;
+}
+
+p {
+  text-align: left;
 }
 
 #title {
@@ -32,19 +60,18 @@ img {
 
 input[type="submit"]{
     border: 0;
-    width: 42px;
-    height:42px;
-    background: #F5B8BD;
-    color: white;
+    width: 76px;
+    height:28px;
+/*    background: #F5B8BD;*/
+    color: black;
     font-family: 'Montserrat', sans-serif;
-    font-size: 25px;
+    font-size: 12px;
+    background-color: white;
 }
 
 input {
-  height: 40px;
-  width: 275px;
-  border-style: none;
-  padding-left: 10px;
+    border: none;
+    border-bottom: 1px solid black;
 }
 
 input:focus {
@@ -53,6 +80,10 @@ input:focus {
 
 input[type="submit"]:focus {
   outline:0;
-  background-color: #75002A;
-  color: white;
+  background-color: white;
+  color: black;
+}
+
+input[type="text"] {
+  font-size: 15px;
 }
